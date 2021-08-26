@@ -235,6 +235,9 @@ header{
 .privacyPolicycontainer__info{
   margin-bottom: 20px;
 }
+.termsOfUse__info{
+  margin-bottom: 20px;
+}
 .privacyPolicycontainer__info2{
   padding-bottom: 20px;
 }
@@ -255,6 +258,7 @@ header{
 .privacyPolicycontainer__color_a{
   color:#093c64;
 }
+
 
 .privacyPolicycontainer__br{
   border: 1px solid #666;
