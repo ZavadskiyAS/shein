@@ -271,7 +271,6 @@ header{
 
 @media screen and (min-width: 550px) {
   .privacyPolicycontainer__box{
-    height: 84px;
+    height: 100%;
   }
 }
-
