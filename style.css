@@ -23,6 +23,7 @@ ol {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 h1,
@@ -205,6 +206,12 @@ header{
     justify-content:space-between;
     padding: 5px 20% 20px 20%;
   }
+  .footer__container{
+    height: 180px;
+  }
+  .footer__reserved{
+    top: 120px;
+  }
 }
 
 
@@ -228,6 +235,9 @@ header{
 .privacyPolicycontainer__info{
   margin-bottom: 20px;
 }
+.privacyPolicycontainer__info2{
+  padding-bottom: 20px;
+}
 
 .privacyPolicycontainer__listInfo{
   list-style:disc;
@@ -241,6 +251,9 @@ header{
     justify-content: space-between;
     justify-content: center;
 
+}
+.privacyPolicycontainer__color_a{
+  color:#093c64;
 }
 
 .privacyPolicycontainer__br{
