@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img,a {
+  display: block;
+}
+
+header{
+    height: 224px;
+    background-color: rgba(189,32,0,1);
+    text-align: center;
+}
+
+.header__list{
+    padding: 20px 0 20px 0;
+}
+.header__item{
+    cursor: pointer;
+    color: #FFFEFE;
+    padding: 12px 10px 12px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+
+.section__contacts{
+    background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:fill;
+}
+.contacts__container{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 700px;
+    padding: 200px 5% 0 5%;
+}
+.contacts__wrap{
+    width: 100%;
+    height: 259px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #FFFFFF;  
+}
+
+.contact__title{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact__phone{
+  font-size: 16px;
+}
+.contact__email{
+  font-size: 16px;
+}
+
+
+
+.footer__container{
+  background-color: rgb(0, 0, 0);
+  height: 324px;
+  padding: 30px 20px 30px 20px;
+  position: relative;
+}
+.footer__privacyPolicy{
+  display: block;
+  color: #DEDEDE;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.footer__termsOfUse{
+  display: block;
+  color: #DEDEDE;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.footer__reserved{
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (min-width: 440px) {
+  .contacts__wrap{
+    height: 200px;
+  }
+}
+@media screen and (min-width: 549px) {
+  .footer__container{
+    height: 257px;
+  }
+  .footer__links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__privacyPolicy{
+    padding-left: 10%;
+    margin-right: 50px;
+  }
+  
+  .footer__termsOfUse{
+    padding-right: 10%;
+  }
+  
+  .footer__reserved{
+    position: absolute;
+    bottom: 0px;
+    top: 200px;
+    left: 0; 
+    right: 0; 
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .contacts__wrap{
+    height: 222px;
+  }
+  .contact__title{
+    font-size: 38px;
+    line-height: 1.23;
+  }
+  .contact__phone{
+    font-size: 18px;
+  }
+  .contact__email{
+    font-size: 18px; 
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .contacts__wrap{
+    height: 388px;
+    padding: 80px 150px 85px 150px;
+    text-align: center;
+    width: 620px;
+    margin: 0 auto;
+  }
+  .contact__title{
+    margin-bottom: 50px;
+  }
+  .footer__links{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 980px) {
+    header{
+      background-color: rgba(189,32,0,.7);
+      height: 50px;
+      width: 100%;
+      position: fixed;
+  }
+  .header__list{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 20% 20px 20%;
+  }
+}
+
+
+/* =====================================index2============================== */
+
+.privacyPolicycontainer__container{
+  padding: 30px 40px 30px 40px;
+}
+.privacyPolicycontainer__linkHome{
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -15px;
+  margin-bottom: 30px;
+}
+
+.privacyPolicycontainer__title{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.privacyPolicycontainer__info{
+  margin-bottom: 20px;
+}
+
+.privacyPolicycontainer__listInfo{
+  list-style:disc;
+  margin-left: 35px;
+}
+.privacyPolicycontainer__box{
+    height: 132px;
+    padding: 20px 40px 20px 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.privacyPolicycontainer__br{
+  border: 1px solid #666;
+}
+@media screen and (min-width: 350px) {
+  .privacyPolicycontainer__box{
+    height: 128px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .privacyPolicycontainer__box{
+    height: 84px;
+  }
+}
+
