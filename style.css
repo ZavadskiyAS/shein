@@ -61,6 +61,50 @@ header{
     font-size: 13px;
     
 }
+.financial__container{
+  background-image:url(./images/tild6361-6563-4338-a238-363932663233__93e52c46c47aa7c2f4fd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 827px;
+  text-align: center;
+  
+}
+.financial__wrap{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 827px;
+}
+
+.financial__txt{
+    padding: 300px 10px 0 10px;
+}
+.financial__title{
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.financial__line{
+  display: block;
+  max-width: 160px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 43px;
+}
+
+.financial__description{
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.55;
+  font-weight: 400;
+  margin-bottom: 200px;
+}
+.financial__arrow{
+  cursor: pointer;
+
+}
 
 .section__contacts{
     background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
@@ -129,6 +173,9 @@ header{
 }
 
 @media screen and (min-width: 440px) {
+  .financial__description{
+    margin-bottom: 250px;
+  }
   .contacts__wrap{
     height: 200px;
   }
@@ -160,6 +207,14 @@ header{
 }
 
 @media screen and (min-width: 640px) {
+  .financial__title{
+    font-size: 48px;
+    line-height: 1.23;
+  }
+
+  .financial__description{
+    font-size: 20px;
+  }
   .contacts__wrap{
     height: 222px;
   }
@@ -204,6 +259,8 @@ header{
     justify-content:space-between;
     padding: 5px 20% 20px 20%;
   }
+
+
   .footer__container{
     height: 180px;
   }
