@@ -106,6 +106,27 @@ header{
 
 }
 
+.financeContent__container{
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+.financeContent__wrap{
+  padding: 120px 20px 120px 20px;
+}
+.financeContent__title{
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 30px;
+  line-height: 1.23;
+}
+
+.financeContent__txt{
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 300;
+}
 .section__contacts{
     background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
     height: 700px;
@@ -214,6 +235,15 @@ header{
 
   .financial__description{
     font-size: 20px;
+  }
+
+  .financeContent__title{
+    font-size: 60px;
+  }
+  
+  .financeContent__txt{
+    font-size: 22px;
+    line-height: 1.5;
   }
   .contacts__wrap{
     height: 222px;
