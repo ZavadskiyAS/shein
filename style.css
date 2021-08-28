@@ -201,6 +201,11 @@ margin-bottom: 30px;
   font-weight: 600;
   margin-bottom: 30px;
 }
+.household__txt{
+  font-size: 20px;
+  line-height: 1.45;
+  font-weight: 300;
+}
 
 .imgSchedule__containerItem4{
   padding: 0 20px 0 20px;
@@ -316,13 +321,30 @@ margin-bottom: 30px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-
 .develop__txt{
   font-size: 20px;
   line-height: 1.45;
   font-weight: 300;
 }
-
+.blockInfo__container{
+  padding: 20px;
+  background-color: #F5F5F5;
+  margin-bottom: 30px;
+}
+.blockInfo__wrap{
+  background-color: #F5F5F5;
+}
+.blockInfo__title{
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.blockInfo__txt{
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 300;
+}
 .section__contacts{
   background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
   height: 700px;
@@ -471,10 +493,22 @@ margin-bottom: 30px;
     line-height: 1.23;
     margin-bottom: 30px;
   }
+  .aboutUs__txt{
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 300;
+  }
   .household__wrap{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+  }
+  .household__title{
+    font-size: 52px;
+  }
+  .household__txt{
+    font-size: 22px;
+
   }
   .imgSchedule__item3{
     max-width: 620px;
@@ -487,6 +521,21 @@ margin-bottom: 30px;
   .develop__wrap{
     max-width: 600px;
     margin: 0 auto;
+  }
+  .blockInfo__container{
+    background-color: #fff;
+  }
+  .blockInfo__wrap{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 640px;
+  }
+  .blockInfo__title{
+    font-size: 26px;
+  }
+  .blockInfo__txt{
+    font-size: 18px;
+    line-height: 1.55;
   }
 
   .contacts__wrap{
@@ -558,6 +607,12 @@ margin-bottom: 30px;
     display: block;
     max-width: 48%;
   }
+  .aboutUs__title{
+    font-size: 52px;
+  }
+  .aboutUs__txt{
+    font-size: 22px;
+  }
   .household__wrap{
     max-width: 780px;
   }
@@ -580,6 +635,11 @@ margin-bottom: 30px;
     margin-top: -60px;
   }
 
+  .blockInfo__wrap{
+    max-width: 700px;
+    padding: 40px;
+  }
+
   .footer__container{
     height: 180px;
   }
@@ -589,8 +649,17 @@ margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
+  .financial__description{
+    font-size: 26px;
+  }
+  .financeContent__txt{
+    font-size: 26px;
+  }
   .household__wrap{
     max-width: 960px;
+  }
+  .household__txt{
+    font-size: 26px;
   }
   .imgSchedule__item3{
     max-width: 760px;
@@ -598,12 +667,27 @@ margin-bottom: 30px;
   .financialLiteracy__wrap{
     max-width: 960px;
   }
+  .financialLiteracy__txt{
+    font-size: 26px;
+  }
+  .aboutUs__txt{
+    font-size: 26px;
+  }
+  .info__txt{
+    font-size: 26px;
+  }
   .develop__wrap{
     max-width: 960px;
   }
+  .develop__txt{
+    font-size: 26px;
+  }
   .imgSchedule__item5{
     max-width: 960px;
-
+  }
+  .blockInfo__wrap{
+    max-width: 880px;
+    padding: 60px;
   }
 }
 
