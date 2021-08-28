@@ -177,6 +177,105 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.45;
 }
+
+.household__container{
+  background-color: #fff;
+  padding: 90px 20px 90px 20px;
+  text-align: center;
+}
+.household__title{
+  font-size: 52px;
+  line-height: 1.17;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.imgSchedule__containerItem4{
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+.imgSchedule__item4{
+  line-height: 36px;
+  font-size: 26px;
+  font-weight: 700;                
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
+  margin-bottom: 30px;
+  padding: 20px 0 20px 0;
+}
+
+.financialLiteracy__container{
+  padding: 90px 20px 90px 20px;
+  text-align: center;
+  background-color: #EBEBEB;
+}
+.financialLiteracy__title{
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: 600;
+}
+.financialLiteracy__txt{
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.45;
+  font-weight: 300;
+}
+
+.findOut__container{
+  background-image: url(./images/c1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  width: auto;
+}
+
+.findOut__wrap{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 560px;
+}
+.findOut__wrap2{
+  padding: 80px 20px 80px 20px;
+}
+
+.findOut__title{
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.23;
+}
+
+.findOut__txt{
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.findOut__svg{
+  margin: 0 auto 20px;
+  width: 20px;
+}
+.findOut__svg980{
+  display: none;
+}
+.findOut__wrapLink{
+  height: 60px;
+  width: 280px;
+  border: solid 1px #D6670D;
+  border-radius: 50px;
+  background-color: #D6670D;
+  margin: 0 auto;
+}
+.findOut__link{
+  color: #fff;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
 .section__contacts{
     background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
     height: 700px;
@@ -325,9 +424,20 @@ margin-bottom: 30px;
     line-height: 1.23;
     margin-bottom: 30px;
   }
-  .aboutUs__txt{
-
+  .household__wrap{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
   }
+  .imgSchedule__item3{
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .financialLiteracy__wrap{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
   .contacts__wrap{
     height: 222px;
   }
@@ -391,12 +501,43 @@ margin-bottom: 30px;
     display: block;
     max-width: 48%;
   }
+  .household__wrap{
+    max-width: 780px;
+  }
+  .financialLiteracy__wrap{
+    max-width: 780px;
+  }
+
+  .findOut__txt{
+    margin-bottom: 100px;
+  }
+  .findOut__svg{
+    display: none;
+  }
+  .findOut__svg980{
+    display: block;
+    width: 45px;
+    margin-left: -80px;
+    margin-top: -60px;
+  }
 
   .footer__container{
     height: 180px;
   }
   .footer__reserved{
     top: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .household__wrap{
+    max-width: 960px;
+  }
+  .imgSchedule__item3{
+    max-width: 760px;
+  }
+  .financialLiteracy__wrap{
+    max-width: 960px;
   }
 }
 
