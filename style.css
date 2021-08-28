@@ -146,6 +146,37 @@ header{
   height: 100%;
   object-fit: cover;
 }
+
+.aboutUs__container{
+  padding: 90px 20px 90px 20px;
+  background-color: #fff;
+}
+.aboutUs__item1{
+  max-width: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.aboutUs__item2{
+  max-width: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.aboutUs__item3{
+margin-bottom: 30px;
+}
+.aboutUs__item2s{
+  height: 100%;
+  object-fit: cover;
+}
+.aboutUs__title{
+  font-size: 30px;
+  line-height: 1.23;
+  margin-bottom: 30px;
+}
+.aboutUs__txt{
+  font-size: 16px;
+  line-height: 1.45;
+}
 .section__contacts{
     background-image: url(./images/tild3037-3134-4136-a462-363165393030__23456436346.jpg);
     height: 700px;
@@ -264,12 +295,50 @@ header{
     font-size: 22px;
     line-height: 1.5;
   }
+  .aboutUs__wrapImgs{
+    width: 472px;
+    margin: 0 auto;
+  }
+  .aboutUs__item1{
+    height: 472px;
+    max-width: 350px;
+  }
+  .aboutUs__item2{
+    height: 276px;
+    max-width: 230px;
+    padding-top: 80px;
+  }
+  .aboutUs__item3{
+    height: 230px;
+    width: 368px;
+    margin-top: -170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+  .aboutUs__wrapTxt{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .aboutUs__title{
+    font-size: 38px;
+    line-height: 1.23;
+    margin-bottom: 30px;
+  }
+  .aboutUs__txt{
+
+  }
   .contacts__wrap{
     height: 222px;
   }
   .contact__title{
     font-size: 38px;
     line-height: 1.23;
+  }
+  .aboutUs__txt{
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 300;
   }
   .contact__phone{
     font-size: 18px;
@@ -297,18 +366,31 @@ header{
 }
 
 @media screen and (min-width: 980px) {
-    header{
-      background-color: rgba(189,32,0,.7);
-      height: 50px;
-      width: 100%;
-      position: fixed;
+  header{
+    background-color: rgba(189,32,0,.7);
+    height: 50px;
+    width: 100%;
+    position: fixed;
   }
+
   .header__list{
     display: flex;
     justify-content:space-between;
     padding: 5px 20% 20px 20%;
   }
-
+  .aboutUs__container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutUs__wrapImgs{
+    display: block;
+    max-width: 48%;
+    margin-bottom: 4%;
+  }
+  .aboutUs__wrapTxt{
+    display: block;
+    max-width: 48%;
+  }
 
   .footer__container{
     height: 180px;
